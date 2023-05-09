@@ -1,5 +1,6 @@
 # This is a sample Python script.
 import Variables
+import Strings
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -27,4 +28,14 @@ if __name__ == '__main__':
           Variables.list_three + "support only + the same type")
     print("Comma seperated variables support different types", Variables.x,
           Variables.y, Variables.z)
+    print(f"This is a", Variables.global_variable())
+#     strings
+    print(Strings.a)
+    print(Strings.x)
+    print(Strings.string_as_array())
+    print(f"this is the element at index 0 \"{Strings.string_array[0]}\"")
+    print(f"this is the length of the string array "
+          f"\"{Strings.length_of_the_string}\" ")
+    print(Strings.check)
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

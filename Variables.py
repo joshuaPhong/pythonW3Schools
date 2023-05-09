@@ -23,6 +23,12 @@ val_four = val_five = val_six = 456
 # unpack a collection such as list and tuple
 listForUnpacking = ["list one", "list two", "list three"]
 list_one, list_two, list_three = listForUnpacking
+# GLOBAL VARIABLES
+# variables declared ooutside a functrion are global
+outside = '"global variable"'
 
+
+def global_variable():
+    return outside
 
 
