@@ -1,6 +1,8 @@
 # This is a sample Python script.
 import Variables
 import Strings
+import StringMethods
+import FormatStrings
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
@@ -44,4 +46,10 @@ if __name__ == '__main__':
           f"ar is skipped ="
           f" {Strings.slice_with_skip_two}")
     print(f"this is string sliced with negative indexing = {Strings.neg_slice}")
+    print(StringMethods.string_upper)
+    print(StringMethods.string_lower)
+    print(StringMethods.string_strip)
+    print(StringMethods.string_replace)
+    print(StringMethods.string_split)
+    print(FormatStrings.formatted_string)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
