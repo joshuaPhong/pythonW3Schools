@@ -37,5 +37,11 @@ if __name__ == '__main__':
     print(f"this is the length of the string array "
           f"\"{Strings.length_of_the_string}\" ")
     print(Strings.check)
-
+    print(Strings.slice_string)
+    print(f"this is 'string' sliced from 's"
+          f"lice_string' = {Strings.slice_start_two_end_seven}")
+    print(f"this is a skip slice, every second ch"
+          f"ar is skipped ="
+          f" {Strings.slice_with_skip_two}")
+    print(f"this is string sliced with negative indexing = {Strings.neg_slice}")
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

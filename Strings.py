@@ -49,6 +49,14 @@ else: print("\"string\" is in this string")
 
 # slicing strings
 # strings are arrays
-# use the square brackets string[start:stop:step]
+# use the square brackets    string[start:stop:step]
+slice_string = "a string to slice"
+# indexes start at 0
+slice_start_two_end_seven = slice_string[2:8]
+slice_with_skip_two = slice_string[::2]
 
+#  negative indexing.
+#  negative indexes work from the end of the string
+#  using slice_string. Pull string from sice with negative indexes
+neg_slice = slice_string[-15:-9]
 
